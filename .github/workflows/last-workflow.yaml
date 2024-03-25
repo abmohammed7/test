@@ -1,0 +1,9 @@
+name: last-workflow
+on: [push]
+
+jobs:
+  run-shell-commands:
+    runs-on: ubuntu-latest
+    steps:
+      - name: echo something
+        run: echo "Hello World"        
